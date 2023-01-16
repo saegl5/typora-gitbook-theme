@@ -620,7 +620,7 @@ table tr td:last-child {
 }
 
 .cm-s-inner .cm-search-hit.CodeMirror-selected, .cm-s-inner .cm-search-hit.CodeMirror-selectedtext {
-    background: var(--select-text-bg-color)!important;
+    background: var(--select-text-bg-color) !important;
 } /* removes black background from code search selected */
 
 .cm-s-typora-default .cm-header,
