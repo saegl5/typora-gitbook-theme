@@ -54,9 +54,12 @@
 
     /*****************************/
 
-    --font-family: "Roboto", sans-serif;
-    --code-font-family: "Source Code Pro";
-    --monospace: "Source Code Pro";
+    --font-family: "SF Pro"; /* was "Roboto", sans-serif */
+    --code-font-family: "Liga SFMono Nerd Font"; /* was "Source Code Pro" */;
+    --monospace: "Liga SFMono Nerd Font"; /* was "Source Code Pro" */
+
+    /* Source of SF Pro: https://developer.apple.com/fonts/ */
+    /* Source of Liga SFMono Nerd Font: https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized */
 }
 
 html,
