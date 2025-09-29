@@ -1262,7 +1262,7 @@ body.o #typora-sidebar .ty-search-item-line {
 #typora-sidebar .file-tree-node.active .file-node-background,
 #typora-sidebar .file-list-item.active,
 #typora-sidebar .ty-search-item.active {
-    background-color: white;
+    background-color: var(--bg-color);
     outline: 1px solid var(--borders);
     border: none;
     color: var(--primary-color) !important;
