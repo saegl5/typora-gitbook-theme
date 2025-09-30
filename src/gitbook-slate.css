@@ -1195,7 +1195,7 @@ body.html-for-mac #typora-sidebar .ty-search-item-line {
 #typora-sidebar .file-list-item.active,
 #typora-sidebar .ty-search-item.active {
     background-color: hsl(217, 18%, 9%); /* var(--bg-color) */
-    outline: 1px solid var(--boxes-darker);
+    outline: 1px solid var(--borders); /* was var(--boxes-darker) */
     border: none;
     color: var(--primary-color) !important;
 }
