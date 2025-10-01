@@ -1268,6 +1268,10 @@ body.o #typora-sidebar .ty-search-item-line {
     color: var(--primary-color) !important;
 }
 
+.file-list-item:not(.active) {
+    opacity: 1; /* override base-control.css */
+}
+
 #typora-sidebar .file-tree-node.active .file-node-content {
     color: var(--primary-color) !important;
 }
