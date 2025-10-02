@@ -1274,6 +1274,7 @@ body.o #typora-sidebar .ty-search-item-line {
 
 #typora-sidebar .file-tree-node.active .file-node-content {
     color: var(--primary-color) !important;
+    font-weight: 600;
 }
 
 #typora-sidebar .file-tree-node {
