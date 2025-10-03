@@ -2494,3 +2494,8 @@ p[type="description"] {
 kbd {
     font-family: var(--font-family);
 }
+
+/* COMMENTS */
+.md-comment {
+    color: var(--md-char-color); /* override base.css */
+}
