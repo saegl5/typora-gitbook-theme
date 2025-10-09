@@ -1259,7 +1259,16 @@ body.o #typora-sidebar .ty-search-item-line {
     border: none;
 }
 
-#typora-sidebar .file-tree-node.active .file-node-background,
+#typora-sidebar .file-tree-node.active .file-node-background { /*,*/
+/* #typora-sidebar .file-list-item.active,
+#typora-sidebar .ty-search-item.active { */
+    /* background-color: var(--borders); */ /* was --bg-color */
+    background: none;
+    /* outline: 1px solid var(--borders); */
+    border: none;
+    color: var(--primary-color) !important;
+}
+
 #typora-sidebar .file-list-item.active,
 #typora-sidebar .ty-search-item.active {
     background-color: var(--borders); /* was --bg-color */
@@ -1274,7 +1283,9 @@ body.o #typora-sidebar .ty-search-item-line {
 
 #typora-sidebar .file-tree-node.active .file-node-content {
     color: var(--primary-color) !important;
-    font-weight: 600;
+    /* font-weight: 600; */
+    background-color: var(--borders);
+    border-radius: 7px;
 }
 
 #typora-sidebar .file-tree-node {
@@ -1384,7 +1395,7 @@ body.html-for-mac
 
 .file-tree-node:not(.file-node-root):not(.file-node-expanded):hover
     .file-node-background {
-    background-color: var(--borders);
+    /* background-color: var(--borders); */
 }
 
 #typora-sidebar .sidebar-footer-item {
