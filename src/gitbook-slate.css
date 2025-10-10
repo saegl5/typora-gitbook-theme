@@ -1282,6 +1282,11 @@ body.html-for-mac #typora-sidebar .ty-search-item-line {
     border-radius: 7px;
 }
 
+.blink-area {
+  -webkit-animation: none;
+  animation: none;
+}
+
 #typora-sidebar .file-tree-node {
     padding: 0rem;
     font-weight: 400; /* was 500 */
