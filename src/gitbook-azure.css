@@ -1398,11 +1398,6 @@ body.html-for-mac
     transition-property: background-color;
 }
 
-.file-tree-node:not(.file-node-root):not(.file-node-expanded):hover
-    .file-node-background {
-    /* background-color: var(--borders); */
-}
-
 #typora-sidebar .sidebar-footer-item {
     transition-duration: 0.2s;
     transition-property: background-color, color;
