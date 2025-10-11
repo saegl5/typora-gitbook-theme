@@ -1362,7 +1362,7 @@ body.o #typora-sidebar .ty-search-item-line {
 }
 
 #typora-sidebar #ty-sidebar-footer {
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
     border-top: solid 1px var(--borders);
     font-weight: 500;
 }
