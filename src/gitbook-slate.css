@@ -1353,7 +1353,7 @@ body.html-for-mac #typora-sidebar .ty-search-item-line {
 
 #typora-sidebar #ty-sidebar-footer {
     border-top: solid 1px var(--borders);
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
     font-weight: 500;
 }
 
