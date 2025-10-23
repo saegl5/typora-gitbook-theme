@@ -1672,7 +1672,7 @@ body.html-for-mac
 .auto-suggest-container li.active,
 .context-menu.dropdown-menu > .active > a,
 .context-menu.dropdown-menu > li > a:hover {
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
     background-color: var(--boxes);
 }
 
