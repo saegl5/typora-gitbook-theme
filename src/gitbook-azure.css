@@ -1122,7 +1122,7 @@ footer.ty-footer {
 }
 
 .outline-item:hover {
-    background: none;
+    background: var(--borders);
 }
 
 .outline-item:hover .outline-label {

@@ -1116,7 +1116,7 @@ input[type="checkbox"]:checked:after {
 }
 
 .outline-item:hover {
-    background: none;
+    background: var(--borders);
 }
 
 .outline-item:hover .outline-label {
