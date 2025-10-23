@@ -1126,7 +1126,7 @@ footer.ty-footer {
 }
 
 .outline-item:hover .outline-label {
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
 }
 
 .outline-label:hover {
