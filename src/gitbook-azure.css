@@ -1405,8 +1405,12 @@ body.html-for-mac
 }
 
 #typora-sidebar .sidebar-footer-item:hover {
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
     background-color: var(--boxes);
+}
+
+.sidebar-footer-item:hover {
+    color: inherit;
 }
 
 #typora-quick-open {
