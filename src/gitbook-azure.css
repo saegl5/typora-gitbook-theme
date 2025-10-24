@@ -1838,7 +1838,7 @@ button.active,
 #pin-outline-btn:focus,
 .icon-button:hover,
 .icon-button:focus {
-    color: var(--primary-color) !important;
+    /* color: var(--primary-color) !important; */
     background: none !important;
 }
 
