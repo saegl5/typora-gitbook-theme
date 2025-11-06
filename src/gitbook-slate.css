@@ -1804,7 +1804,14 @@ button.active,
 .icon-button {
     background-color: transparent !important;
     color: var(--light-text-color) !important;
-    /* opacity: 1 !important; */
+    opacity: 1 !important;
+    transition-duration: 0.2s;
+    transition-property: color;
+}
+
+.html-for-mac .sidebar-tab-btn {
+    background-color: transparent !important;
+    color: var(--light-text-color) !important;
     transition-duration: 0.2s;
     transition-property: color;
 }
