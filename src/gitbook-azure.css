@@ -1769,7 +1769,7 @@ button.active,
 
 .window-header button,
 #close-sidebar-menu-btn,
-.html-for-mac .sidebar-tab-btn,
+/* .html-for-mac .sidebar-tab-btn, */
 .label-hint,
 .ty-table-edit .btn,
 .zoom-hint-button,
@@ -1781,6 +1781,13 @@ button.active,
     background-color: transparent !important;
     color: var(--light-text-color) !important;
     opacity: 1 !important;
+    transition-duration: 0.2s;
+    transition-property: color;
+}
+
+.html-for-mac .sidebar-tab-btn {
+    background-color: transparent !important;
+    color: var(--light-text-color) !important;
     transition-duration: 0.2s;
     transition-property: color;
 }
