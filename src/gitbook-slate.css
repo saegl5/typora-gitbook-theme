@@ -81,7 +81,7 @@ body {
 }
 
 #write {
-    font-size: 0.95rem;
+    font-size: 1.25rem; /* was 0.95rem */
     font-family: var(--write-font-family);
     max-width: 850px;
     margin: 0 auto;
@@ -358,7 +358,7 @@ blockquote blockquote {
 }
 
 table {
-    font-size: 0.875rem;
+    font-size: inherit; /* was 0.875rem */
     padding: 0;
     margin: 1.5rem 0;
     word-break: initial;
