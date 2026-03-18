@@ -55,10 +55,12 @@
     --font-family: "SF Pro"; /* was "Roboto", sans-serif */
     --code-font-family: "Liga SFMono Nerd Font"; /* was "Source Code Pro" */;
     --monospace: "Liga SFMono Nerd Font"; /* was "Source Code Pro" */
+    --write-font-family: "Libertinus Serif";
 
     /* Source of SF Pro: https://developer.apple.com/fonts/ */
     /* Source of Liga SFMono Nerd Font: https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized */
     /* Font ligatures work automatically. */
+    /* Source of Libertinus Serif: https://github.com/alerque/libertinus */
 }
 
 /*by 16soundsofsilence, yes this code is an absolute mess*/
@@ -80,6 +82,7 @@ body {
 
 #write {
     font-size: 0.95rem;
+    font-family: var(--write-font-family);
     max-width: 850px;
     margin: 0 auto;
     margin-top: 1rem;
