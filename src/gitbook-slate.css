@@ -845,6 +845,7 @@ input[type="checkbox"]:checked:after {
 .md-tag {
     color: var(--md-char-color);
     opacity: 1;
+    font-size: 1rem;
 }
 
 /*TOC*/
@@ -2529,4 +2530,5 @@ kbd {
 /* COMMENTS */
 .md-comment {
     color: var(--md-char-color); /* override base.css */
+    font-size: 1rem;
 }
