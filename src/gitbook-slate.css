@@ -1118,6 +1118,10 @@ input[type="checkbox"]:checked:after {
     color: var(--light-text-color-darker);
 }
 
+.outline-item .outline-label > code {
+    font-size: 0.8rem; /* new */
+}
+
 .outline-item:hover {
     background: var(--borders);
 }
