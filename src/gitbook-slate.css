@@ -15,7 +15,7 @@
     --select-text-font-color: #e6e7eb;
     --select-text-bg-color: #1968e6;
 
-    --md-char-color: #8092af;
+    --md-char-color: rgb(128, 146, 175);
     --heading-char-color: #8092af;
     --meta-content-color: #3783ff;
 
@@ -111,12 +111,6 @@ a:hover {
 mark a,
 mark .md-content.md-url {
     color: var(--primary-color-darker2);
-}
-
-.md-comment {
-    /* keeps base color and opacity, but keeps cursor visible */
-    color: rgba(162, 127, 3, 0.6) !important;
-    opacity: 1 !important;
 }
 
 mark a:hover {
@@ -2539,6 +2533,8 @@ kbd {
 
 /* COMMENTS */
 .md-comment {
-    color: var(--md-char-color); /* override base.css */
+    /* keeps color and opacity, but keeps cursor visible */
+    color: rgba(128, 146, 175, 0.6) !important; /* override base.css */
+    opacity: 1 !important; /* override base.css */
     font-size: 1rem;
 }
