@@ -1132,9 +1132,9 @@ footer.ty-footer {
     background: var(--borders);
 }
 
-.outline-item:hover .outline-label {
+/* .outline-item:hover .outline-label { */
     /* color: var(--primary-color); */
-}
+/* } */
 
 .outline-label:hover {
     text-decoration: none;
