@@ -113,6 +113,12 @@ mark .md-content.md-url {
     color: var(--primary-color-darker2);
 }
 
+.md-comment {
+    /* keeps base color and opacity, but keeps cursor visible */
+    color: rgba(162, 127, 3, 0.6) !important;
+    opacity: 1 !important;
+}
+
 mark a:hover {
     color: var(--primary-color-darkest);
 }
