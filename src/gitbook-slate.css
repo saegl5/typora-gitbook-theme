@@ -83,7 +83,7 @@ body {
 #write {
     font-size: 1.25rem; /* was 0.95rem */
     font-family: var(--write-font-family);
-    max-width: 850px;
+    max-width: 90%; /* was 850px */
     margin: 0 auto;
     margin-top: 1rem;
     padding: 30px;
