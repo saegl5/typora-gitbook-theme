@@ -1,4 +1,4 @@
-# Gitbook Theme For Typora
+# GitBook macOS Theme For Typora
 ![img](media/variants.png)
 
 This typora theme is inspired by the [Gitbook](https://www.gitbook.com) document style. It features three variants: *Azure*, *Slate* and *Teal*.

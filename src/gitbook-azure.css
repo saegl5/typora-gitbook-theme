@@ -55,12 +55,13 @@
     --font-family: "SF Pro"; /* was "Roboto", sans-serif */
     --code-font-family: "Liga SFMono Nerd Font"; /* was "Source Code Pro" */;
     --monospace: "Liga SFMono Nerd Font"; /* was "Source Code Pro" */
-    --write-font-family: "Libertinus Serif";
+    --write-font-family: "Libertinus Serif", "Songti SC";
 
     /* Source of SF Pro: https://developer.apple.com/fonts/ */
     /* Source of Liga SFMono Nerd Font: https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized */
     /* Font ligatures work automatically. */
     /* Source of Libertinus Serif: https://github.com/alerque/libertinus */
+    /* Songti SC is default serif font of Mandarin on macOS */
 }
 
 html,
